@@ -1,33 +1,43 @@
 <!DOCTYPE html>
+<html lang="pl-PL">
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8">	
 	</head>
 	<body>
 		<table width=65% border="1" align="center">
-			<tr>
-				<td colspan="3">
-					<b> nagłówek </b>
+ 			<tr>
+ 				<td colspan="3">
+					<iframe scrolling="no" width=1010 height=120 name="obszar_logo" src="logo_nazwisko.html" border="0"></iframe>
 				</td>
+ 			</tr>
+ 			<tr>	
+ 				<td width=18% align="center">
+ 					<b>lewe menu</b>
+  					<ul> 
+ 						<li> <a href="https://zse.edu.gdansk.pl/pl/" target="obszar_glowny"> Strona ZSE </a>
+ 						<li> <a href="https://www.kuratorium.gda.pl/" target="obszar_glowny"> Kuratorium </a>
+ 					</ul>
+ 				</td>
+ 				<td align=center>
+					<iframe width=740 height=430 name="obszar_glowny" src="glowny_nazwisko.html" border="0"></iframe>
+				</td>
+				<td width=18% align="center"><b>prawe menu</b>
+					<map id="mapa_zagdanski">
+ 					<area shape="poly" coords="30,50,50,10,70,50" href="plik.zip">
+ 					<area shape="rect" coords="30,70,70,110" href="tabela_nazwisko.html" target="obszar_glowny">
+ 					<area shape="circle" coords="30,130,70,170" href="formularz_nazwisko.html" target="obszar_glowny">
+ 					<area shape="rect" coords="20,190,80,230" href="mailto:mkryniew@ids.gda.pl">
+ 					<area shape="circle" coords="30,270,50,250" href="z1_z6_nazwisko.html" target="obszar_glowny">
+					</map>
+ 					<img src="mapa_zagdanski.gif" alt="Tutaj wybieraj linki" usemap="#mapa_zagdanski"> 
+ 				</td>
 			</tr>
 			<tr>
-				<td width=18% align="center"> <!-- Lewe menu -->
-					<a href="http://www.kuratorium.gda.pl" target="strony">Kuratorium</a>
-					<br>
-					<a href="http://www.zse.gda.pl" target="strony">ZSE Gdańsk</a>
+ 				<td colspan="3">
+					<iframe scrolling="no" width=1010 height=120 name="obszar_stopka" src="stopka_nazwisko.html" border="0"></iframe> 
 				</td>
-				<td align="center"> <!-- Obszar główny -->
-					<td align=center><iframe width=650 height=650 name="strony" src="start.html" border="0"></iframe>
-				</td> 
-				<td width=18% align="center"> <!-- Prawe menu -->
-					<td width=18% align="center"><a href="start.html" target="strony">Start</a>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="3"> <!-- Stopka -->
-					<b> stopka </b>
-				</td>
-			</tr>
-		</table>	
+ 			</tr>	
+		</table>		
 	</body>
 </html>
